@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="593.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLCadCliente2Controller">
+   <children>
+      <Label layoutX="69.0" layoutY="288.0" text="Nº da residencia:" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Label layoutX="76.0" layoutY="121.0" text="Cliente:" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField id="txtResidencia" fx:id="txtResidencia" layoutX="201.0" layoutY="288.0" prefHeight="25.0" prefWidth="71.0" />
+      <TextField id="txtCliente" fx:id="txtCliente" layoutX="148.0" layoutY="121.0" prefHeight="25.0" prefWidth="227.0" />
+      <Button id="btSalvar" fx:id="btSalvar" layoutX="258.0" layoutY="353.0" mnemonicParsing="false" style="-fx-background-color: green;" onAction="#salvar" text="Salvar" textFill="WHITE" />
+      <Label layoutX="119.0" layoutY="26.0" text="Caderno de Contas" textAlignment="CENTER" textFill="#eb1515">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="227.0" text="Endereço:" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField id="txtEndereço" fx:id="txtEndereço" layoutX="148.0" layoutY="227.0" />
+      <Label layoutX="71.0" layoutY="179.0" text="Telefone:" textFill="#f8f8f8">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField id="txtTelefone" fx:id="txtTelefone" layoutX="148.0" layoutY="179.0" />
+   </children>
+</AnchorPane>

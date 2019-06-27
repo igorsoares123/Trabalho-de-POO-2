@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLMenuController">
+   <children>
+      <MenuBar style="-fx-background-color: white;">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Cadastro">
+            <items>
+              <MenuItem fx:id="menuItemCadCliente" mnemonicParsing="false" onAction="#cadastrar" text="Cliente" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Lista">
+            <items>
+              <MenuItem fx:id="menuItemListaClientes" mnemonicParsing="false" onAction="#listar" text="Clientes" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="87.0" layoutY="146.0" text="BEM VINDO AO NOSSO CADERNO DE CONTAS!" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="216.0" text="SELECIONE A OPÇÃO NO BARRA DE MENU A CIMA:" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,8 @@
+create database caderno;
+create table anot(
+id int(11)
+cliente varchar(100) primary key,
+telefone varchar(100)not null,
+endereco varchar(100)not null, 
+residencia varchar(100) not null
+);
